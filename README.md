@@ -30,7 +30,7 @@ For Version 2 please go to this [fotoblog_v2](https://github.com/giljr/fotoblog/
 
 Go to tags and download V3 working code package.
 
-# FotoBlog v3.0
+# FotoBlog v3.0 - 🥰️ A Mini-Facebook App 👈️ 
 ## Instructions - How To Install in vscode
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -43,7 +43,7 @@ A simple web application that allows you to uploads photos, maintain a database 
 
 ## Installation
 
-FotoBlog requires [vscode IDE](https://code.visualstudio.com/) v1.75.1 to run.
+FotoBlog_v3 requires [vscode IDE](https://code.visualstudio.com/) v1.75.1 to run.
 
 Clone Git Tag by using the following syntax to clone a v3.0 tag:
 
@@ -69,7 +69,7 @@ http://localhost:8000/
 
 The screenshots are available in this directory:
 ```sh
-docs/fotoblog_v2:
+docs/fotoblog_v3:
 ```
 
 ## Step by Step
