@@ -37,7 +37,8 @@ Go to tags and download V3 working code package.
 A simple web application that allows you to uploads photos, maintain a database with references to them, list them with their metadata, and more.
 
 - Installation on vscode
-- Cloning v.3.0
+- cloning facebook, boldly and unpretentiously - Mini-Facebook 
+- Features of v.3.0 : vscode complete working code, Bootstrap, Crispy, Admin Dashboard, and more...
 - ✨Magic ✨ Happens  ✨!
 
 
@@ -49,7 +50,7 @@ Clone Git Tag by using the following syntax to clone a v3.0 tag:
 
 ```sh
 git clone -b [tag_name] [repository_url]
-git clone -b v3.0 https://github.com/giljr/fotoblog.git
+git clone -b v3.0 https://github.com/giljr/fotoblog_v3.git
 ```
 The command clones tag v3.0 from the specified repository URL.
 
@@ -58,6 +59,7 @@ For development environments...
 ```sh
 pip install -r requirements.txt
 python ./manage.py migrate --run-syncdb
+python ./manage.py createsuperuser
 python ./manage.py runserver
 ```
 You can now browse to the following link to start exploring the sample.
@@ -77,26 +79,26 @@ docs/fotoblog_v3:
 
 **1 >** The sample app will open the: 
 ```sh
-00_sign_in_page.png
+sign in page
 ```
 
 **2 >** Click 'Sign Up Now!' and the app will open the:
 ```sh
-00_sing_up_page.png;
+sing up page
 ```
 **3 >** As soon as you  loged in, the:
 ```sh
-'Upload a Photo' 
+Upload a Photo page appears
 ``` 
 will be opened;
 
 **4 >** Choose a photo and submit in this form : 
 ```sh
-01_upload_photo.png;
+Upload photo
 ```
 **5 >** You will see a page like this one: 
 ```sh
-02_home.png; 
+home page 
 ```
 ## Django Admin 
 Also supports the **Django admin** which is available.
@@ -127,21 +129,20 @@ run pip freeze > requirements
 
 Now you can go ahead with the instructions above.
 
+
+We use https://dbeaver.io/, a Free Universal Database Tool! 
+
+Check it out!
+
 @author: Gilberto Jr
 @site: jungletronics
 @url: https://medium.com/jungletronics
 @date: feb, 2023
+
+Bye!
 
 ## License
 
 MIT
 
 **Free Software, 2023 Jungletronics!**
-
-Bye!
-
-Gilberto Jr
-
-jaythree
-
-date: feb23
