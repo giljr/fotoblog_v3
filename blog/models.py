@@ -53,5 +53,8 @@ class BlogContributor(models.Model):
     blog = models.ForeignKey(Blog, on_delete=models.CASCADE)
     contribution = models.CharField(max_length=255, blank=True)
 
+    def __str__(self):
+        return self.contributor
+
     class Meta:
         unique_together = ('contributor', 'blog')

@@ -5,6 +5,10 @@ from . import models
 
 User = get_user_model()
 
+# A page where users can upload their media content to the site
+# A page where we can view these photos (config urlpatterns in settings file)
+
+
 class PhotoForm(forms.ModelForm):
     class Meta:
         model = models.Photo
