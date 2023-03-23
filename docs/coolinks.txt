@@ -3,3 +3,5 @@ Installing django-crispy-forms - https://django-crispy-forms.readthedocs.io/en/l
 Get started with Bootstrap - https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template
 A Django Blog In VS Code — Bootstrap, Tailwind CSS, Template Inheritance - https://medium.com/jungletronics/a-django-blog-in-vs-code-c090eef59849
 Django API Reference - https://docs.djangoproject.com/en/4.1/ref/
+Django ORM Cookbook - https://books.agiliq.com/projects/django-orm-cookbook/en/latest/
+
